@@ -1,0 +1,219 @@
+.intro-box {
+    grid-area: intro-box;
+}
+
+.last-vis {
+    grid-area: last-vis;
+}
+
+.last-diag {
+    grid-area: last-diag;
+}
+
+.intro-grid {
+    display: grid;
+    grid-template-areas: 'intro-box last-vis last-vis last-vis last-vis last-vis last-vis' 'intro-box last-diag last-diag last-diag last-diag last-diag last-diag';
+    padding: 1vmin;
+    height: 60vh;
+    margin-left: 8vmin;
+    margin-right: 8vmin;
+    margin-top: 3vmin;
+    margin-bottom: 3vmin;
+}
+
+.intro-box {
+    background: radial-gradient(50% 50% at 50% 50%, rgba(225, 20, 125, 0.75) 0%, #E1147D 100%);
+    border-radius: 2vmin;
+    margin-right: 6vmin;
+    padding-top: 6vmin;
+    padding-left: 15vmin;
+    position: relative;
+}
+
+.ques {
+    width: 70%;
+    color: white;
+    font-size: 5vmin;
+}
+
+.intro-text {
+    width: 40%;
+    color: white;
+    font-size: 2.5vmin;
+    font-weight: lighter;
+    margin-top: 3vmin;
+}
+
+.intro-btn {
+    height: 5.5vmin;
+    width: 25vmin;
+    background-color: white;
+    border-radius: 0.5vmin;
+    margin-top: 10vmin;
+    text-align: center;
+    font-size: 2vmin;
+    line-height: 5.5vmin;
+    font-weight: normal;
+}
+
+.intro-btn span{
+    color: #E1147D;
+}
+
+.intro-img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 47vmin;
+}
+
+.last-vis {
+    border-radius: 2vmin;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    height: 30vh;
+    margin-bottom: 1.5vmin;
+}
+
+.last-diag {
+    border-radius: 2vmin;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    height: 30vh;
+    margin-top: 1.5vmin;
+}
+
+.vis-header, .diag-header {
+    height: 7vmin;
+    background: linear-gradient(91.07deg, #E30C7A 1.83%, #C71570 100%);
+    border-top-left-radius: 2vmin;
+    border-top-right-radius: 2vmin;
+    color: white;
+    line-height: 7vmin;
+    font-size: 2.5vmin;
+}
+
+.vis-header p, .diag-header p {
+    margin-left: 4vmin;
+}
+
+.calendar p {
+    padding: 2.5vmin;
+    padding-left: 4vmin;
+}
+
+.mon {
+    grid-area: mon;
+}
+
+.tues {
+    grid-area: tues;
+}
+
+.wed {
+    grid-area: wed;
+    background-color: #E1147D;
+    border-top-left-radius: 2vmin;
+    border-top-right-radius: 2vmin;
+    color: white;
+}
+
+.thur {
+    grid-area: thur;
+}
+
+.fri {
+    grid-area: fri;
+}
+
+.sat {
+    grid-area: sat;
+}
+
+.sun {
+    grid-area: sun;
+}
+
+.twentynine {
+    grid-area: twentynine;
+}
+
+.thirty {
+    grid-area: thirty;
+}
+
+.one {
+    grid-area: one;
+    background-color: #E1147D;
+    border-bottom-left-radius: 2vmin;
+    border-bottom-right-radius: 2vmin;
+    color: white;
+}
+
+.two {
+    grid-area: two;
+}
+
+.three {
+    grid-area: three;
+}
+
+.four {
+    grid-area: four;
+}
+
+.five {
+    grid-area: five;
+}
+
+.cal-row {
+    display: grid;
+    grid-template-areas: 'mon tues wed thur fri sat sun' 'twentynine thirty one two three four five';
+    text-align: center;
+}
+
+.cal-item {
+    padding-top: 1vmin;
+    padding-bottom: 1vmin;
+    margin-left: 1vmin;
+    margin-right: 1vmin;
+}
+
+.diag-cards {
+    margin-left: 5vmin;
+    margin-right: 5vmin;
+    text-align: center;
+}
+
+.diag-card-cont {
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    margin: 1vmin;
+    padding: 0 !important;
+    margin-top: 2vmin;
+    height: 19vmin;
+    border-radius: 0.3vmin;
+}
+
+
+.diag-cont{
+    padding: 0 !important;
+}
+
+.diag-card-img img {
+    height: 9vmin;
+    margin-top: 1.5vmin;
+    border-radius: 0.7vmin;
+    margin: 1.5vmin;
+}
+
+.diag-card-btn {
+    background-color: hsl(329, 84%, 48%);
+    height: 4vmin;
+    margin: 1vmin;
+    margin-top: 1vmin;
+    border-radius: 0.5vmin;
+    font-size: 1.5vmin;
+    line-height: 4vmin;
+}
+
+.diag-card-btn span {
+    color: white;
+}

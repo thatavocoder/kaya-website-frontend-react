@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    width: 100vw;
+    height: 13vmin;
+    background-color: #E1147D;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 1vmin !important;
+}
+
+.logo {
+    height: 13vmin;
+    position: relative;
+    color: rgb(0, 0, 0);
+    background: #ffffff;
+    z-index: 100;
+    text-align: center;
+}
+
+.logo:after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background: #ffffff;
+    transform-origin: bottom left;
+    -ms-transform: skew(-30deg, 0deg);
+    -webkit-transform: skew(-30deg, 0deg);
+    transform: skew(-30deg, 0deg);
+}
+
+.logo img {
+    position: relative;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.login-info {
+    position: relative;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.login-info ul {
+    float: right;
+}
+
+.login-info li {
+    float: left;
+    color: #ffffff;
+    list-style: none;
+    margin-left: 1vmin;
+}
+
+.login-info li i {
+    font-size: 4.5vmin;
+}
+
+.dropdown {
+    margin-right: 1.5vmin;
+}
+
+.wish {
+    font-size: 2vmin;
+    margin-right: 7vmin;
+}
+
+.nav-options{
+    margin-bottom: 0 !important;
+}
+
+.opt-box{
+    height: 8vmin;
+    padding: 0.1vmin !important;
+}
+
+.opt-box div{
+    background-color: #F0F0F0;
+    height: 100%;
+    width: 100%;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0.5vmin;
+    text-align: center;
+    font-size: 2.3vmin;
+    line-height: 8vmin;
+}
