@@ -12,7 +12,7 @@ export default function Recommend() {
                 </div>
                 <div className="rec-cards">
                     <div className="row">
-                        <div className="rec-cont col s3">
+                        <div className="rec-cont col l3 m6 s6">
                             <div className="rec-card-cont">
                                 <div className="rec-card-img">
                                     <img src={placeholder}></img>
@@ -23,7 +23,7 @@ export default function Recommend() {
                                 </div>
                             </div>
                         </div>
-                        <div className="rec-cont col s3">
+                        <div className="rec-cont col l3 m6 s6">
                             <div className="rec-card-cont">
                                 <div className="rec-card-img">
                                     <img src={placeholder}></img>
@@ -33,7 +33,7 @@ export default function Recommend() {
                                     <Link to="#"><span>View Product</span></Link>
                                 </div>
                             </div>
-                        </div><div className="rec-cont col s3">
+                        </div><div className="rec-cont col l3 m6 s6">
                             <div className="rec-card-cont">
                                 <div className="rec-card-img">
                                     <img src={placeholder}></img>
@@ -43,7 +43,7 @@ export default function Recommend() {
                                     <Link to="#"><span>View Product</span></Link>
                                 </div>
                             </div>
-                        </div><div className="rec-cont col s3">
+                        </div><div className="rec-cont col l3 m6 s6">
                             <div className="rec-card-cont">
                                 <div className="rec-card-img">
                                     <img src={placeholder}></img>

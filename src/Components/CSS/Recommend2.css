@@ -52,3 +52,17 @@
 .rec2-card-btn span {
     color: white;
 }
+
+@media only screen and (max-width: 768px){
+    .rec2-head{
+        margin-top: 0vmin;
+        margin-left: 4vmin;
+    }
+    .rec2-cards{
+        margin-left: 2vmin;
+        margin-right: 2vmin;
+    }
+    .rec2-card-img img{
+        height: 25vmin;
+    }
+}

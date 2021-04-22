@@ -1,6 +1,7 @@
 .ss-cont {
     margin-top: 10vmin;
     background: #e1147e;
+    height: 63vmin;
 }
 
 .sec1 {
@@ -46,15 +47,13 @@
     width: 100%;
     height: 100%;
     top: 0;
-    right: 0;
-    left: 20vmin;
+    left: 0;
     z-index: -1;
     background: radial-gradient(50% 50% at 50% 50%, #FFFFFF 0%, #F0F0F0 100%);
-    transform-origin: top left;
+    transform-origin: bottom left;
     -ms-transform: skew(-30deg, 0deg);
     -webkit-transform: skew(-30deg, 0deg);
     transform: skew(-30deg, 0deg);
-    margin-left: 15vmin;
 }
 
 .rect{
@@ -103,4 +102,57 @@
     top: 50%;
     left: 20%;
     transform: translate(-100%, -50%);
+}
+
+@media only screen and (max-width: 650px){
+    .ss-cont{
+        height: 50vmin;
+    }
+    .sec1:after{
+        left: -35vmin;
+    }
+    .sec2:after{
+        left: -35vmin;
+    }
+    .rect{
+        height: 25vmin;
+        left: 45vmin;
+        top: 25vmin;
+    }
+    .circle{
+        left: 10vmin;
+        bottom: -4vmin;
+    }
+    .car-btn span{
+        left: 12vmin;
+        bottom: 3vmin;
+    }
+
+    .sec2 img{
+        height: 25vmin;
+        top: 25vmin;
+        left: 20vmin;
+    }
+}
+
+@media only screen and (min-width: 650px) and (max-width: 900px){
+    .rect{
+        height: 30vmin;
+        left: 50vmin;
+        top: 30vmin;
+    }
+    .circle{
+        left: 5vmin;
+        bottom: 12vmin;
+    }
+    .car-btn span{
+        left: 7vmin;
+        bottom: 19vmin;
+    }
+
+    .sec2 img{
+        height: 30vmin;
+        top: 32vmin;
+        left: 30vmin;
+    }
 }

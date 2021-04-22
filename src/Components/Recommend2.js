@@ -12,7 +12,7 @@ export default function Rec2ommend2() {
                 </div>
                 <div className="rec2-cards">
                     <div className="row">
-                        <div className="rec2-cont col s3">
+                        <div className="rec2-cont col l3 m6 s6">
                             <div className="rec2-card-cont">
                                 <div className="rec2-card-img">
                                     <img src={placeholder}></img>
@@ -23,7 +23,7 @@ export default function Rec2ommend2() {
                                 </div>
                             </div>
                         </div>
-                        <div className="rec2-cont col s3">
+                        <div className="rec2-cont col l3 m6 s6">
                             <div className="rec2-card-cont">
                                 <div className="rec2-card-img">
                                     <img src={placeholder}></img>
@@ -33,7 +33,7 @@ export default function Rec2ommend2() {
                                     <Link to="#"><span>View Product</span></Link>
                                 </div>
                             </div>
-                        </div><div className="rec2-cont col s3">
+                        </div><div className="rec2-cont col l3 m6 s6">
                             <div className="rec2-card-cont">
                                 <div className="rec2-card-img">
                                     <img src={placeholder}></img>
@@ -43,7 +43,7 @@ export default function Rec2ommend2() {
                                     <Link to="#"><span>View Product</span></Link>
                                 </div>
                             </div>
-                        </div><div className="rec2-cont col s3">
+                        </div><div className="rec2-cont col l3 m6 s6">
                             <div className="rec2-card-cont">
                                 <div className="rec2-card-img">
                                     <img src={placeholder}></img>
