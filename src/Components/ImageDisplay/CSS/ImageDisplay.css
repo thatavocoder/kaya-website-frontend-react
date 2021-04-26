@@ -1,0 +1,57 @@
+.displayimg img {
+    height: 50vmin;
+    padding: 5vmin;
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.25), -4px -4px 6px rgba(222, 222, 222, 0.25);
+    border-radius: 1.5vmin;
+    margin: 5vmin;
+}
+
+.or{
+    text-align: center;
+    margin-top: 5vmin;
+}
+
+.deletebtn, .otherimgbtn, .imgdispnext {
+    height: 6vmin;
+    width: 25vmin;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: #E1147D;
+    border: none;
+    outline: none;
+    border-radius: 0.4vmin;
+}
+
+.deletebtn span, .otherimgbtn span{
+    color: white;
+    font-size: 2vmin;
+}
+
+.deletebtn i, .otherimgbtn i{
+    font-size: 2.2vmin;
+    padding: 1vmin;
+}
+
+.deletebtn, .otherimgbtn{
+    margin-top: 5vmin;
+}
+
+.imgdispnext{
+    text-align: center;
+    margin-top: 15vmin;
+}
+
+.imgdispnext span{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 3vmin;
+    color: rgb(255, 255, 255);
+}
+
+@media only screen and (max-width:720px){
+    .displayimg img{
+        height: 40vmin;
+    }
+}
