@@ -1,0 +1,127 @@
+.details {
+    width: 75vw;
+    box-shadow: 0px 0px 8px #00000040;
+    border-radius: 1.5vmin;
+    padding: 5vmin;
+    position: relative;
+    margin-top: 10vmin;
+}
+
+.head {
+    color: #E1147D;
+    font-size: 3.5vmin;
+    font-weight: bold;
+}
+
+.skip {
+    text-align: right;
+    color: #2B2B2B;
+}
+
+.skip p {
+    font-size: 2vmin;
+}
+
+.skip i{
+    font-size: 4vmin;
+}
+
+.ques {
+    margin-left: 3vmin;
+    margin-top: 3vmin;
+}
+
+.ques p {
+    display: inline;
+    margin-left: 3vmin;
+    font-size: 2.5vmin;
+    color: #000000;
+    margin-top: 3vmin;
+}
+
+.checkopts {
+    margin-left: 15vmin;
+    margin-bottom: 0;
+}
+
+.checkcont {
+    font-size: 2.3vmin;
+    line-height: 2.3vmin;
+    display: block !important;
+    position: relative !important;
+    cursor: pointer !important;
+    padding-left: 4vmin !important;
+    margin-top: 3vmin !important;
+    -webkit-user-select: none !important;
+    -moz-user-select: none !important;
+    -ms-user-select: none !important;
+    user-select: none !important;
+}
+
+.checkmark::before {
+    position: absolute !important;
+    opacity: 0 !important;
+    cursor: pointer !important;
+    height: 0 !important;
+    width: 0 !important;
+}
+
+.checkmark {
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    margin-right: 2vmin !important;
+    height: 2vmin !important;
+    width: 2vmin !important;
+    padding: 0 !important;
+    background-color: rgb(63, 63, 63) !important;
+}
+
+.checkcont:hover input~.checkmark {
+    background-color: #ccc !important;
+}
+
+.checkmark:after {
+    content: "" !important;
+    position: absolute !important;
+    display: none !important;
+    z-index: 1000;
+}
+
+.checkcont input:checked~.checkmark:after {
+    display: block !important;
+}
+
+.checkcont .checkmark:after {
+    top: -0.5vmin !important;
+    width: 2vmin !important;
+    height: 2vmin !important;
+    background-color: #E1147D;
+    border-width: 0 3px 3px 0 !important;
+    -webkit-transform: rotate(1deg) !important;
+    -ms-transform: rotate(1deg) !important;
+    transform: rotate(1deg) !important;
+}
+
+.curmeds{
+    font-size: 2.5vmin;
+}
+
+input[type='text']{
+    margin-bottom: 0 !important;
+}
+
+.nextbtn{
+    height: 6vmin;
+    width: 25vmin;
+    position: relative;
+    left: 75%;
+    transform: translate(-75%);
+    background-color: #E1147D;
+    color: white;
+    font-size: 2.5vmin;
+    line-height: 6vmin;
+    border: none;
+    outline: none;
+    border-radius: 0.4vmin;
+}

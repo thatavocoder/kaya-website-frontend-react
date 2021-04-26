@@ -1,5 +1,6 @@
 .intro-box {
     grid-area: intro-box;
+    z-index: -1;
 }
 
 .last-vis {
@@ -28,6 +29,7 @@
     padding-top: 6vmin;
     padding-left: 15vmin;
     position: relative;
+    z-index: 1000;
 }
 
 .ques {

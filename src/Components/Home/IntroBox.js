@@ -11,11 +11,11 @@ export default function IntroBox() {
                 <div className="intro-box">
                     <div className="ques">Loremipsum Loremipsum Loremipsum Loremipsumipsum ?</div>
                     <div className="intro-text">Loremipsum Loremipsum Loremipsum Loremipsum LoremipsumLoremipsum Loremipsum Loremipsum</div>
-                    <div className="intro-btn">
-                        <Link to="#">
+                    <Link to='/GeneralDetails' className='intro-btn'>
+                        <div className="intro-btn">
                             <span>Start Diagnosis &nbsp; &nbsp; &gt;</span>
-                        </Link>
-                    </div>
+                        </div>
+                    </Link>
                     <img src={beforeplastic} className="intro-img"></img>
                 </div>
                 <div className="last-vis">

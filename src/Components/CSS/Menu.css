@@ -53,7 +53,7 @@
     float: right;
 }
 
-.login-info li {
+.login-info ul li {
     float: left;
     color: #ffffff;
     list-style: none;
@@ -62,27 +62,70 @@
 
 .login-info li i {
     font-size: 4.5vmin;
+    line-height: 10vmin;
 }
 
 .dropdown {
     margin-right: 1.5vmin;
 }
 
+.dropbtn, .dropbtn:active, .dropbtn:hover, .dropbtn:focus {
+    background: none;
+    box-shadow: none;
+    transition: none;
+}
+
+.dropcontent {
+    width: 30vmin !important;
+    top: 15vmin !important;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 1vmin;
+    z-index: 1000;
+}
+
+.dropcontent li {
+    text-align: center;
+    width: 30vmin;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.dropcontent li a {
+    color: #202020;
+    text-align: left;
+    font-size: 2.5vmin;
+}
+
+.dropcontent li a i {
+    padding: 0;
+    margin: 0;
+}
+
+.divider {
+    background-color: #E1147D;
+    width: 27vmin !important;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+
 .wish {
     font-size: 2vmin;
     margin-right: 7vmin;
+    height: 10vmin;
+    margin-top: 2vmin;
 }
 
-.nav-options{
+.nav-options {
     margin-bottom: 0 !important;
 }
 
-.opt-box{
+.opt-box {
     height: 8vmin;
     padding: 0vmin !important;
 }
 
-.opt-box div{
+.opt-box div {
     background-color: #F0F0F0;
     height: 100%;
     width: 100%;

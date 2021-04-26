@@ -1,0 +1,110 @@
+.container {
+    width: 80vw;
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.25), -4px -4px 6px rgba(222, 222, 222, 0.25);
+    border-radius: 1vmin;
+    position: fixed;
+    height: auto;
+    left: 50%;
+    transform: translate(-50%);
+    margin-top: 5vmin;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.imgheadercont {
+    width: 100%;
+    height: 10vmin;
+    background-color: #E1147D;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 1vmin !important;
+}
+
+.image p {
+    font-size: 3vmin;
+    line-height: 10vmin;
+}
+
+.image {
+    height: 10vmin;
+    position: relative;
+    color: rgb(0, 0, 0);
+    background: #ffffff;
+    z-index: 100;
+    text-align: center;
+}
+
+.image:after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background: #ffffff;
+    transform-origin: bottom left;
+    -ms-transform: skew(-30deg, 0deg);
+    -webkit-transform: skew(-30deg, 0deg);
+    transform: skew(-30deg, 0deg);
+}
+
+.imgheader {
+    position: relative;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.imageinput {
+    height: 30vmin;
+    width: 30vmin;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    background: linear-gradient(139.16deg, #FC4AA5 -4.62%, #A20555 97.17%);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0.3vmin;
+    margin-top: 10vmin;
+    margin-bottom: 10vmin !important;
+}
+
+.imgbtn {
+    height: 100% !important;
+    width: 100% !important;
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.imgbtn:hover {
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.imgbtn span {
+    position: relative;
+    top: 7.5vmin;
+}
+
+.imgnextbtn {
+    margin-bottom: 10vmin;
+    height: 6vmin;
+    width: 25vmin;
+    position: relative;
+    left: 85%;
+    transform: translate(-85%);
+    background-color: #E1147D;
+    color: white;
+    font-size: 2.5vmin;
+    line-height: 6vmin;
+    border: none;
+    outline: none;
+    border-radius: 0.4vmin;
+}
+
+.imgnextbtn:hover {
+    background: #E1147D;
+    box-shadow: none;
+}
