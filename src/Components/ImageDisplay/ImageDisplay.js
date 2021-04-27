@@ -26,7 +26,7 @@ export default function ImageDisplay() {
                         <Link><span><i class="material-icons">photo_camera</i>Upload another image</span></Link>
                     </div>
                     <div className='imgdispnext  valign-wrapper'>
-                        <Link><span>Next &nbsp; &nbsp; &gt;</span></Link>
+                        <Link to='/ImageScan'><span>Next &nbsp; &nbsp; &gt;</span></Link>
                     </div>
                 </div>
             </div>

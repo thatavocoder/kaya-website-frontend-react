@@ -6,6 +6,7 @@ import './App.css';
 import DiagHome from './Components/StartDiagnosis/DiagHome';
 import UploadImage from './Components/UploadImage/UploadImage';
 import ImageDisplay from './Components/ImageDisplay/ImageDisplay';
+import ImageScan from './Components/ImageScan/ImageScan';
 
 
 function App() {
@@ -23,8 +24,11 @@ function App() {
           <Route exact path='/UploadImage'>
             <UploadImage/>
           </Route>
-          <Route>
+          <Route exact path='/ImageDisplay'>
             <ImageDisplay/>
+          </Route>
+          <Route exact path='/ImageScan'>
+            <ImageScan />
           </Route>
         </Switch>
       </Router>

@@ -108,3 +108,12 @@
     background: #E1147D;
     box-shadow: none;
 }
+
+@media only screen and (max-width: 720px){
+    .container{
+        width: 95vw;
+    }
+    .imgnextbtn{
+        margin-top: 10vmin;
+    }
+}

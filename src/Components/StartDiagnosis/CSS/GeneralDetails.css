@@ -22,7 +22,7 @@
     font-size: 2vmin;
 }
 
-.skip i{
+.skip i {
     font-size: 4vmin;
 }
 
@@ -103,15 +103,15 @@
     transform: rotate(1deg) !important;
 }
 
-.curmeds{
+.curmeds {
     font-size: 2.5vmin;
 }
 
-input[type='text']{
+input[type='text'] {
     margin-bottom: 0 !important;
 }
 
-.nextbtn{
+.nextbtn {
     height: 6vmin;
     width: 25vmin;
     position: relative;
@@ -124,4 +124,10 @@ input[type='text']{
     border: none;
     outline: none;
     border-radius: 0.4vmin;
+}
+
+@media only screen and (max-width: 720px) {
+    .details {
+        width: 95vw;
+    }
 }

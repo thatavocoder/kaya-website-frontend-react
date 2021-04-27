@@ -1,3 +1,4 @@
+
 .displayimg img {
     height: 50vmin;
     padding: 5vmin;
@@ -6,7 +7,7 @@
     margin: 5vmin;
 }
 
-.or{
+.or {
     text-align: center;
     margin-top: 5vmin;
 }
@@ -23,26 +24,26 @@
     border-radius: 0.4vmin;
 }
 
-.deletebtn span, .otherimgbtn span{
+.deletebtn span, .otherimgbtn span {
     color: white;
     font-size: 2vmin;
 }
 
-.deletebtn i, .otherimgbtn i{
+.deletebtn i, .otherimgbtn i {
     font-size: 2.2vmin;
     padding: 1vmin;
 }
 
-.deletebtn, .otherimgbtn{
+.deletebtn, .otherimgbtn {
     margin-top: 5vmin;
 }
 
-.imgdispnext{
+.imgdispnext {
     text-align: center;
     margin-top: 15vmin;
 }
 
-.imgdispnext span{
+.imgdispnext span {
     position: relative;
     left: 50%;
     transform: translate(-50%);
@@ -50,8 +51,9 @@
     color: rgb(255, 255, 255);
 }
 
-@media only screen and (max-width:720px){
-    .displayimg img{
-        height: 40vmin;
+@media only screen and (max-width:720px) {
+    .displayimg img {
+        height: 55vmin !important;
+        margin: 2vmin !important;
     }
 }

@@ -17,7 +17,7 @@ export default function GeneralDetails() {
                     <label className='col s12 m6 l4 checkcont'><input type="checkbox"/><span className='checkmark'></span>Diabetes</label>
                     <label className='col s12 m6 l4 checkcont'><input type="checkbox"/><span className='checkmark'></span>Keloid Tendency</label>
                     <label className='col s4 m2 l2 checkcont' style={{'display':'inline'}}><input type="checkbox"/><span className='checkmark'></span>Other</label>
-                    <label className='col s8 m4 l6 checkcont' style={{'display':'inline'}}><input type="text" style={{'height':'3.5vmin', 'width':'70%', 'marginLeft':'2vmin'}}></input></label>
+                    <label className='col s8 m4 l6' style={{'display':'inline', 'paddingLeft':'0'}}><input type="text" className='otherinput' style={{'height':'2.5vmin', 'width':'70%', 'marginTop':'3vmin', 'fontSize':'2.5vmin'}}></input></label>
                     <br/>
                     <label className='curmeds'>Current Medications:</label>
                     <label style={{'marginLeft':'3vmin'}}><input type='text' style={{'width':'50%', 'height':'3.5vmin'}}></input></label>
