@@ -1,11 +1,12 @@
 .displayimg img {
+    max-height: 50vmin;
     height: 50vmin;
     padding: 5vmin;
     box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.25), -4px -4px 6px rgba(222, 222, 222, 0.25);
     border-radius: 1.5vmin;
     margin: 5vmin;
     position: relative;
-    z-index: 1000;
+    z-index: 900;
 }
 
 .imgscan {
@@ -19,16 +20,46 @@
     position: absolute;
 }
 
-.or {
-    text-align: center;
-    margin-top: 5vmin;
+.circle {
+    background-color: rgb(255, 255, 255);
+    height: 60vmin;
+    width: 88vmin;
+    z-index: 800;
+    transform: translate(-50%);
+    margin-left: 6vmin;
+    top: -4vmin !important;
 }
 
-.deletebtn, .otherimgbtn, .imgdispnext {
+.scaneffect {
+    height: 2vmin;
+    background-color: transparent;
+    border: none;
+    border-bottom: 0.5vmin solid white;
+    position: absolute;
+    margin-top: 15vmin !important;
+    left: 27.5vmin !important;
+    z-index: 1000;
+    left: 5vmin;
+    width: 74.5vmin;
+    box-shadow: 0px 50px 50px rgb(255, 255, 255);
+    animation: scaneff 5s infinite alternate linear;
+}
+
+@keyframes scaneff {
+    0% {
+        height: 2vmin;
+    }
+    100% {
+        height: 48vmin;
+    }
+}
+
+.simgdispnext {
     height: 6vmin;
     width: 25vmin;
     position: relative;
     left: 50%;
+    top: 50vmin;
     transform: translate(-50%);
     background-color: #E1147D;
     border: none;
@@ -36,26 +67,11 @@
     border-radius: 0.4vmin;
 }
 
-.deletebtn span, .otherimgbtn span {
-    color: white;
-    font-size: 2vmin;
-}
-
-.deletebtn i, .otherimgbtn i {
-    font-size: 2.2vmin;
-    padding: 1vmin;
-}
-
-.deletebtn, .otherimgbtn {
-    margin-top: 5vmin;
-}
-
-.imgdispnext {
+.simgdispnext {
     text-align: center;
-    margin-top: 15vmin;
 }
 
-.imgdispnext span {
+.simgdispnext span {
     position: relative;
     left: 50%;
     transform: translate(-50%);
@@ -63,8 +79,26 @@
     color: rgb(255, 255, 255);
 }
 
-@media only screen and (max-width:720px) {
+@media only screen and (max-width:768px) {
+    .grid-container{
+        margin-top: 10vmin;
+    }
     .displayimg img {
         height: 40vmin;
+    }
+    .imgscan{
+        margin-top: -56vmin;
+        margin-left: 3.5vmin;
+    }
+    .circle {
+        left: 35vmin;
+    }
+    .scaneffect {
+        left: 13vmin !important;
+        top: 26vmin !important;
+    }
+    .simgdispnext{
+        top: 0;
+        margin-top: 10vmin;
     }
 }

@@ -135,3 +135,12 @@
     font-size: 2.3vmin;
     line-height: 8vmin;
 }
+
+.opt-box li {
+    padding: 0 !important;
+}
+
+.isactive div{
+    background-color: #E1147D;
+    color: white;
+}

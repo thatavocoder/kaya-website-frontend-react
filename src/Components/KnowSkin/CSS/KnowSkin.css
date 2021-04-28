@@ -1,0 +1,79 @@
+.knowskin{
+    margin-top: 10vmin;
+    margin-left: 25vmin;
+    font-size: 3vmin;
+    font-weight: bold;
+}
+
+.ksdetails {
+    width: 75vw;
+    box-shadow: 0px 0px 8px #00000040;
+    border-radius: 1.5vmin;
+    padding: 5vmin;
+    position: relative;
+    margin-top: 5vmin;
+}
+
+.checkopts li{
+    list-style-type: none;
+    margin-top: 1vmin;
+    font-size: 2vmin;
+}
+
+.checkopts li::before{
+    content: "\25FC";
+    font-size: 2.5vmin;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+.skintypehead {
+    color: #000000;
+    font-size: 2.5vmin;
+    font-weight: bold;
+}
+
+.ksskip {
+    text-align: right;
+    color: #2B2B2B;
+}
+
+.ksskip p {
+    font-size: 2vmin;
+    margin-left: -3vmin !important;
+}
+
+.ksskip i {
+    font-size: 3vmin;
+}
+
+.ksques {
+    margin-left: 3vmin;
+    margin-top: 3vmin;
+}
+
+.ksques p {
+    display: inline;
+    margin-left: 3vmin;
+    font-size: 2.5vmin;
+    color: #000000;
+    margin-top: 3vmin;
+}
+
+@media only screen and (max-width: 768px){
+    .knowskin{
+        margin-left: 5vmin;
+    }
+    .ksdetails {
+        width: 95vw;
+    }
+    .ksskip i{
+        font-size: 2vmin;
+    }
+    .ksskip{
+        margin-left: 0 !important;
+        padding: 0 !important;
+    }
+}

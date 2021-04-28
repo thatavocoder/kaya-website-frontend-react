@@ -51,9 +51,15 @@
     color: rgb(255, 255, 255);
 }
 
-@media only screen and (max-width:720px) {
+@media only screen and (max-width:768px) {
     .displayimg img {
         height: 55vmin !important;
         margin: 2vmin !important;
+    }
+    .deletebtn, .otherimgbtn{
+        margin-top: 3vmin !important;
+    }
+    .imgdispnext{
+        margin-top: 10vmin !important;
     }
 }

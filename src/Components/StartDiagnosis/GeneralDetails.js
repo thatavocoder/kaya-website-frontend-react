@@ -5,8 +5,8 @@ export default function GeneralDetails() {
     return (
         <div>
             <div className='details row'>
-                <p className='details-head genhead col s10'><span className='head'>General Details</span></p>
-                <div className='details-head skip col s2 row'>
+                <p className='col s10'><span className='head'>General Details</span></p>
+                <div className='skip col s2 row'>
                     <p className='col s5' style={{'display': 'inline'}}>Skip</p>
                     <i className="material-icons outlined col s6" style={{'display':'inline'}}>east</i>
                 </div>

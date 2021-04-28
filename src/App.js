@@ -7,6 +7,8 @@ import DiagHome from './Components/StartDiagnosis/DiagHome';
 import UploadImage from './Components/UploadImage/UploadImage';
 import ImageDisplay from './Components/ImageDisplay/ImageDisplay';
 import ImageScan from './Components/ImageScan/ImageScan';
+import ImageDiag from './Components/ImageDiag/ImageDiag';
+import KnowSkin from './Components/KnowSkin/KnowSkin';
 
 
 function App() {
@@ -29,6 +31,12 @@ function App() {
           </Route>
           <Route exact path='/ImageScan'>
             <ImageScan />
+          </Route>
+          <Route exact path='/ImageDiag'>
+            <ImageDiag/>
+          </Route>
+          <Route exact path='/KnowSkin'>
+            <KnowSkin/>
           </Route>
         </Switch>
       </Router>
