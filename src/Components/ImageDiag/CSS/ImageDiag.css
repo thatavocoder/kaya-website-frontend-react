@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins);
+
 .displayimg img {
     height: 50vmin;
     padding: 5vmin;
@@ -8,12 +10,12 @@
 
 .condn, .condntype {
     height: auto;
-    width: 40vmin;
-    padding: 2vmin;
+    width: 50vmin;
+    padding: 4vmin;
     position: relative;
     left: 50%;
     transform: translate(-50%);
-    background-color: #4d4d4d;
+    background-color: #E1147D;
     border: none;
     outline: none;
     border-radius: 0.4vmin;
@@ -25,6 +27,8 @@
     color: white;
     font-size: 2vmin;
     padding-left: 3vmin !important;
+    padding-top: 1vmin !important;
+    margin-bottom: 3vmin;
 }
 
 .condn p span, .condntype p span {
@@ -34,11 +38,13 @@
 
 .blueli, .redli, .purpleli, .greenli {
     list-style-type: none;
+    padding-top: 1vmin;
+    padding-left: 3vmin;
 }
 
 .blueli::before, .redli::before, .greenli::before, .purpleli::before {
     content: "\2022";
-    font-size: 2.5vmin;
+    font-size: 3vmin;
     font-weight: bold;
     display: inline-block;
     width: 1em;
@@ -83,6 +89,8 @@
     margin-left: 12vmin;
     margin-top: 15vmin;
     margin-bottom: 5vmin;
+    font-size: 3vmin;
+    font-weight: bold;
 }
 
 .drec-cards {
@@ -98,6 +106,10 @@
     margin-top: 2vmin;
     height: 50vmin;
     border-radius: 1vmin;
+}
+
+.drec-card-cont p{
+    font-family: 'Poppins';
 }
 
 .drec-cont {
@@ -124,6 +136,7 @@
 
 .drec-card-btn span {
     color: white;
+    font-family: 'Poppins';
 }
 
 @media only screen and (max-width: 768px) {

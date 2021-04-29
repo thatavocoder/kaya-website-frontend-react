@@ -18,7 +18,7 @@ export default function ImageScan() {
                     <div className='displayimg col s12 m12 l6 center-align'>
                         <img src={acnefacials}></img>
                         <div className='imgscan'>
-                            <span className='circle'></span>
+                            <span className='circle scircle'></span>
                         </div>
                     </div>
                     <div className='imgeditbtns col s12 m12 l6'>

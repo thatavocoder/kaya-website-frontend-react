@@ -16,7 +16,6 @@
 
 .checkopts li{
     list-style-type: none;
-    margin-top: 1vmin;
     font-size: 2vmin;
 }
 
@@ -42,6 +41,7 @@
 
 .ksskip p {
     font-size: 2vmin;
+    line-height: 1vmin;
     margin-left: -3vmin !important;
 }
 
@@ -50,8 +50,8 @@
 }
 
 .ksques {
-    margin-left: 3vmin;
-    margin-top: 3vmin;
+    margin: 0 !important;
+    margin-left: 3vmin !important;
 }
 
 .ksques p {
@@ -60,6 +60,10 @@
     font-size: 2.5vmin;
     color: #000000;
     margin-top: 3vmin;
+}
+
+.ksq{
+    margin-left: -5vmin !important;
 }
 
 @media only screen and (max-width: 768px){
@@ -75,5 +79,14 @@
     .ksskip{
         margin-left: 0 !important;
         padding: 0 !important;
+    }
+    .ksques{
+        margin-left: 0vmin !important;
+    }
+    .ksq{
+        margin-left: -2vmin !important;
+    }
+    .checkopts{
+        margin-left: 12vmin !important;
     }
 }

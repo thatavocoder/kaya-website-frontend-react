@@ -31,7 +31,7 @@ export default function ImageDiag() {
                                 </ul>
                             </p>
                         </div>
-                        <div className='condntype  valign-wrapper'>
+                        {/*<div className='condntype  valign-wrapper'>
                             <p className='col s12'>
                                 <span>Type of condition of the skin</span>
                                 <ol>
@@ -40,13 +40,13 @@ export default function ImageDiag() {
                                     <li>Bacterial infection</li>
                                 </ol>
                             </p>
-                        </div>
+                        </div>*/}
                     </div>
                 </div>
             </div>
             <div className="drec-cont">
                 <div className="drec-head">
-                    <p>Recommended Products for your Oily Skin</p>
+                    <p>Recommended Products</p>
                 </div>
                 <div className="drec-cards">
                     <div className="row">

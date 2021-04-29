@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins);
+
 .intro-box {
     grid-area: intro-box;
     z-index: -1;
@@ -35,7 +37,8 @@
 .ques {
     width: 70%;
     color: white;
-    font-size: 5vmin;
+    font-size: 4.5vmin;
+    margin-left: 0 !important;
 }
 
 .intro-text {
@@ -100,6 +103,7 @@
 .calendar p {
     padding: 2.5vmin;
     padding-left: 4vmin;
+    font-family: 'Poppins';
 }
 
 .mon {
@@ -177,6 +181,7 @@
     padding-bottom: 1vmin;
     margin-left: 1vmin;
     margin-right: 1vmin;
+    font-family: 'Poppins';
 }
 
 .diag-cards {
@@ -218,6 +223,7 @@
 
 .diag-card-btn span {
     color: white;
+    font-family: 'Poppins';
 }
 
 @media only screen and (max-width: 768px){

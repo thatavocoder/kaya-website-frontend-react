@@ -20,7 +20,7 @@
     position: absolute;
 }
 
-.circle {
+.scircle {
     background-color: rgb(255, 255, 255);
     height: 60vmin;
     width: 88vmin;
@@ -36,10 +36,9 @@
     border: none;
     border-bottom: 0.5vmin solid white;
     position: absolute;
-    margin-top: 15vmin !important;
+    margin-top: -65vmin !important;
     left: 27.5vmin !important;
     z-index: 1000;
-    left: 5vmin;
     width: 74.5vmin;
     box-shadow: 0px 50px 50px rgb(255, 255, 255);
     animation: scaneff 5s infinite alternate linear;
@@ -96,6 +95,7 @@
     .scaneffect {
         left: 13vmin !important;
         top: 26vmin !important;
+        margin-top: 15vmin !important;
     }
     .simgdispnext{
         top: 0;

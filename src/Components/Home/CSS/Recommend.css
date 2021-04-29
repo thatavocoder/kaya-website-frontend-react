@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins);
+
 .rec-head{
     margin-left: 12vmin;
     margin-top: 15vmin;
@@ -19,6 +21,9 @@
     border-radius: 1vmin;
 }
 
+.rec-card-cont p{
+    font-family: 'Poppins';
+}
 
 .rec-cont{
     padding: 0 !important;
@@ -44,6 +49,7 @@
 
 .rec-card-btn span {
     color: white;
+    font-family: 'Poppins';
 }
 
 @media only screen and (max-width: 768px){
