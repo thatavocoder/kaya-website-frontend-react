@@ -29,7 +29,7 @@ export default function PastRec() {
                                     <li className='col s6 greenli left-align' style={{ 'paddingLeft': '-6vmin' }}>Acne</li>
                                 </ul>
                                 <div className="prec-card-btn">
-                                    <Link to="#"><span>View Report</span></Link>
+                                    <Link to="/ImageDiag"><span>View Report</span></Link>
                                 </div>
                             </div>
                         </div>
@@ -48,7 +48,7 @@ export default function PastRec() {
                                     <li className='col s6 greenli left-align' style={{ 'paddingLeft': '-6vmin' }}>Acne</li>
                                 </ul>
                                 <div className="prec-card-btn">
-                                    <Link to="#"><span>View Report</span></Link>
+                                    <Link to="/ImageDiag"><span>View Report</span></Link>
                                 </div>
                             </div>
                         </div>
@@ -67,7 +67,7 @@ export default function PastRec() {
                                     <li className='col s6 greenli left-align' style={{ 'paddingLeft': '-6vmin' }}>Acne</li>
                                 </ul>
                                 <div className="prec-card-btn">
-                                    <Link to="#"><span>View Report</span></Link>
+                                    <Link to="/ImageDiag"><span>View Report</span></Link>
                                 </div>
                             </div>
                         </div>
