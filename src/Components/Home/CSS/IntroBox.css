@@ -1,5 +1,4 @@
 @import url(https://fonts.googleapis.com/css?family=Poppins);
-
 .intro-box {
     grid-area: intro-box;
     z-index: -1;
@@ -61,7 +60,7 @@
     font-weight: normal;
 }
 
-.intro-btn span{
+.intro-btn span {
     color: #E1147D;
 }
 
@@ -199,8 +198,7 @@
     border-radius: 0.3vmin;
 }
 
-
-.diag-cont{
+.diag-cont {
     padding: 0 !important;
 }
 
@@ -226,8 +224,8 @@
     font-family: 'Poppins';
 }
 
-@media only screen and (max-width: 768px){
-    .intro-grid{
+@media only screen and (max-width: 768px) {
+    .intro-grid {
         grid-template-areas: 'intro-box intro-box intro-box intro-box intro-box intro-box' 'last-vis last-vis last-vis last-diag last-diag last-diag';
         margin-bottom: 0;
         height: 100vmin;
@@ -236,48 +234,57 @@
         margin-right: 0;
         padding-left: 10vmin;
     }
-    .ques{
+    .ques {
         font-size: 3vmin;
     }
-    .intro-text{
+    .intro-text {
         width: 50%;
         font-size: 2vmin;
     }
-    .intro-img{
+    .intro-img {
         height: 35vmin;
     }
-    .intro-btn{
+    .intro-btn {
         width: 18vmin;
         height: 4vmin;
         line-height: 4vmin;
         font-size: 1.5vmin;
         margin-top: 7vmin;
     }
-    .last-vis, .last-diag{
+    .last-vis, .last-diag {
+        width: 40vw;
+        height: 23vh;
+        margin-bottom: 0;
+        margin-top: 3vmin;
+    }
+    .vis-header p, .diag-header p {
+        margin-left: 2vmin;
+    }
+    .calendar p {
+        font-size: 2.5vmin;
+        padding-left: 1vmin;
+    }
+    .cal-item {
+        font-size: 2vmin;
+    }
+    .diag-cards {
+        margin-left: 1vmin;
+        margin-right: 1vmin;
+    }
+    .diag-card-cont {
+        margin: 0.3vmin;
+        margin-top: 2vmin;
+    }
+    .diag-card-img img {
+        height: 7.5vmin;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .last-vis, .last-diag {
         width: 40vw;
         height: 18vh;
         margin-bottom: 0;
         margin-top: 3vmin;
-    }
-    .vis-header p, .diag-header p{
-        margin-left: 2vmin;
-    }
-    .calendar p{
-        font-size: 2.5vmin;
-        padding-left: 1vmin;
-    }
-    .cal-item{
-        font-size: 2vmin;
-    }
-    .diag-cards{
-        margin-left: 1vmin;
-        margin-right: 1vmin;
-    }
-    .diag-card-cont{
-        margin: 0.3vmin;
-        margin-top: 2vmin;
-    }
-    .diag-card-img img{
-        height: 7.5vmin;
     }
 }
