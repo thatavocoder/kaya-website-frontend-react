@@ -142,8 +142,7 @@
         top: 30vmin;
     }
     .circle{
-        left: 5vmin;
-        bottom: 12vmin;
+        display: none;
     }
     .car-btn span{
         left: 7vmin;
